@@ -13,10 +13,15 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
     
+/**Main game loop, runs at start and when the user has answered a question */
 function runGame()
 {
-
+    //Create two random numbers between 1 and 25
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 }
+
+runGame();
 
 function checkAnswer()
 {
